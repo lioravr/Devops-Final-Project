@@ -10,7 +10,7 @@
      <% for (int i=0; i<=10; i++) { //start for loop %>
             <tr>
                 <td><%= i%></td>
-                <td><%= Math.pow(2, i) %></td>
+                <td><%= Math.pow(5, i) %></td>
             </tr>
      <% } //end for loop %>
 </table>
